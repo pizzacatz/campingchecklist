@@ -1,0 +1,8 @@
+body { font-family:sans-serif; margin:1rem; }
+.container { max-width:600px; margin:auto; }
+button { margin-bottom:1rem; }
+.lists { display:flex; gap:1rem; }
+section { flex:1; border:1px solid #ddd; padding:0.5rem; border-radius:4px; }
+h2 { margin-top:0; }
+li { display:flex; justify-content:space-between; padding:0.25rem 0; }
+li button { margin-left:0.5rem; }
