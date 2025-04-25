@@ -2,25 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Test Page</title>
-  <style>
-    body { 
-      font-family: sans-serif; 
-      display: flex; 
-      height: 100vh; 
-      margin: 0; 
-      justify-content: center; 
-      align-items: center; 
-      background: #f5f5f5;
-    }
-    h1 { color: #333; }
-  </style>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <title>Checklist</title>
 </head>
 <body>
-  <h1>✅ Your GitHub Pages is working!</h1>
-  <script>
-    console.log("Test index.html loaded successfully.");
-  </script>
+  <div class="container">
+    <h1>Checklist</h1>
+    <button id="reset">Reset All</button>
+    <div class="lists">
+      <section><h2>Pending</h2><ul id="pending"></ul></section>
+      <section><h2>Done</h2><ul id="done"></ul></section>
+      <section><h2>Disregarded</h2><ul id="disregarded"></ul></section>
+    </div>
+  </div>
+  <script src="main.js"></script>
 </body>
 </html>
