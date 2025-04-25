@@ -1,4 +1,4 @@
-const API = 'https://script.google.com/macros/s/AKfycbwGDHuPlhPiyTKzFU3sRneBv2m8zYMZTwtVulHiJl0pB7y545AVKd01rZkbds4ZDxnZYQ/exec'; // your Apps Script URL
+const API = 'https://script.google.com/macros/s/AKfycbwW_X8nbHJy2ZOGn2LoqqqqF9Za6byp_zo3c_lOsIM824vNJLrjsgjx4Z2RwmeCgQofDA/exec'; // your Apps Script URL
 
 // Your fixed list — just edit here to add/remove items:
 const ITEMS = [
