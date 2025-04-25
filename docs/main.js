@@ -1,4 +1,4 @@
-const API = 'https://script.google.com/macros/s/AKfycbyN7WjsxA3Bb9ngdxN11Ss4hNJbNANbmJJlJqhWrfd3rKPhzfUiv32Ji0LI00WiGBLX/exec'; // your Apps Script URL
+const API = 'https://script.google.com/macros/s/AKfycbwGDHuPlhPiyTKzFU3sRneBv2m8zYMZTwtVulHiJl0pB7y545AVKd01rZkbds4ZDxnZYQ/exec'; // your Apps Script URL
 
 // Edit this for your items:
 const ITEMS = [
